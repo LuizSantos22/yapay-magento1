@@ -19,10 +19,8 @@
 
 class Tray_CheckoutApi_Block_Adminhtml_System_Config_Fieldset_Label extends Mage_Adminhtml_Block_Abstract implements Varien_Data_Form_Element_Renderer_Interface
 {   
-    public function render(Varien_Data_Form_Element_Abstract $element)
+    public function render(Varien_Data_Form_Element_Abstract $element): string
     {
-        
-        
         $html = "";
         
         return $html;
